@@ -1,6 +1,6 @@
 # portfolio
 
-Professional portfolio site for [github.kakronayan.dev/portfolio](https://github.kakronayan.dev/portfolio/).
+Professional portfolio site for [kakronayan.github.io/portfolio](https://kakronayan.github.io/portfolio/).
 
 ## Contributors
 

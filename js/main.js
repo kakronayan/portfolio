@@ -74,6 +74,10 @@
           <p class="label">Location</p>
           <span>${profile.location}</span>
         </div>
+        <div class="panel">
+          <p class="label">GitHub</p>
+          <a href="${profile.github}" rel="noopener">github.com/kakronayan</a>
+        </div>
       </div>
 
       <div class="section-head" id="personal">
@@ -176,8 +180,8 @@
           <a href="https://github.kakronayan.dev/">Workspace</a>
         </nav>
         <div class="foot-credit">
-          <div class="line1">${profile.name}<span class="sep">·</span>© ${new Date().getFullYear()}</div>
-          <div class="line2">Banker · Full Stack · Cloud</div>
+          <div class="line1"><a href="${profile.github}">${profile.name}</a><span class="sep">·</span>© ${new Date().getFullYear()}</div>
+          <div class="line2">Banker · Full Stack · Cloud · <a href="${profile.github}">Contributor</a></div>
         </div>
       </footer>
     `;

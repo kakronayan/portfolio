@@ -446,6 +446,15 @@ footer.foot {
   font-weight: 400;
 }
 
+.foot-credit a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.foot-credit a:hover {
+  color: var(--accent);
+}
+
 @media (max-width: 560px) {
   .stat-strip { display: none; }
 }

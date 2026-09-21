@@ -34,7 +34,7 @@
     document.title = `${profile.name} — Portfolio`;
     document.getElementById('app').innerHTML = `
       <div class="top-nav">
-        <a href="https://kakronayan.github.io/">← Workspace</a>
+        <a href="${profile.website}">← Workspace</a>
         <button class="theme-btn" id="themeBtn" type="button">Theme</button>
       </div>
 
@@ -77,6 +77,10 @@
         <div class="panel">
           <p class="label">GitHub</p>
           <a href="${profile.github}" rel="noopener">github.com/kakronayan</a>
+        </div>
+        <div class="panel">
+          <p class="label">Website</p>
+          <a href="${profile.website}" rel="noopener">kakronayan.github.io</a>
         </div>
       </div>
 
@@ -177,7 +181,7 @@
           <a href="#experience">Experience</a>
           <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
-          <a href="https://kakronayan.github.io/">Workspace</a>
+          <a href="${profile.website}">Workspace</a>
         </nav>
         <div class="foot-credit">
           <div class="line1"><a href="${profile.github}">${profile.name}</a><span class="sep">·</span>© ${new Date().getFullYear()}</div>

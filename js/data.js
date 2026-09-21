@@ -4,6 +4,7 @@ window.CV = {
     name: 'Yan Kakrona',
     title: 'Senior Full-Stack Developer Lead',
     github: 'https://github.com/kakronayan',
+    website: 'https://kakronayan.github.io/',
     email: 'yan.kakrona199@gmail.com',
     phone: '070 753 509',
     location: 'St 93, Sangkat Toul Sangke, Khan Russey Keo, Phnom Penh',
